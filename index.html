@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenses Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="titel">
+        <h1>Expenses Tracker</h1>
+    </header>
+
+    <div class="output">
+        <p></p>
+    </div>
+
+    <div class="expenseslogger">
+        <table>
+            <thead>
+                <tr>
+                    <th>Reason</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+
+        <div class="left">
+            <p>Left: 1500€</p>
+        </div>
+
+        <div id="container">
+            <section id="textforms">
+                <form id="forms">
+                    <input type="text" placeholder="reason" id="reason">
+                    <input type="number" placeholder="price" id="price">
+                </form>
+            </section>
+    
+            <button id="add">Add</button>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>Expenses Tracker developed by Daniel &copy; 2020</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

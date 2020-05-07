@@ -1,0 +1,99 @@
+/*For whole documment*/
+html {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+/*Titel*/
+#titel {
+    margin: 60px;
+    font-size: 20px;
+}
+
+/*Tables*/
+.expenseslogger {
+    position: relative;
+
+    width: 300px;
+    height: 132px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 75px;
+}
+
+.left {
+    position: absolute;
+}
+
+.expenseslogger table {
+    font-size: 20px;
+    border: 1px solid #444;
+    border-radius: 15px;
+}
+
+.expenseslogger th {
+    padding: 20px;
+}
+
+/*Delete Button*/
+.delete {
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 50px;
+    padding-top: 4px;
+}
+
+input {
+    margin: 10px;
+
+    border-radius: 5px;
+}
+
+#add {
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    width: 50px;
+    padding-top: 4px;
+
+}
+
+#container {
+    position: absolute;
+
+    margin-top: 50px;
+    float: left;
+}
+
+#footer {
+    display: block;
+
+    position: absolute;
+    bottom: 10px;
+    width: 98%;
+    margin: 0;
+    padding: 0;
+
+    background-color: darkslategrey;
+}
+
+/* Output stylings */
+.sucessful {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+.failed {
+    color: red;
+    font-weight: bold;
+}
